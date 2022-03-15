@@ -24,6 +24,20 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+div {
+    display: block;
+}
+.quote {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.author {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+}    
 p {
     display: block;
     margin-block-start: 1em;
@@ -31,12 +45,4 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.quote {
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 2.5rem;
-}
-.author {
-    font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
-    font-style: italic;
-}    
+

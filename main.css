@@ -50,11 +50,17 @@ p {
   .wrapper {
       width: 100%;
     }
+  .quote {
+      font-size: 0.80em;
+  }  
 }
 /* For mobile phones: */
 @media only screen and (max-width:500px) {
    .wrapper {
        width: 100%;
    } 
+   .quote {
+      font-size: 0.60em;
+}  
 }
 

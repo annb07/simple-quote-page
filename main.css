@@ -45,4 +45,16 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+/* For tablets: */
+@media only screen and (max-width:800px) {
+  .wrapper {
+      width: 100%;
+    }
+}
+/* For mobile phones: */
+@media only screen and (max-width:500px) {
+   .wrapper {
+       width: 100%;
+   } 
+}
 
